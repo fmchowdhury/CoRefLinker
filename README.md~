@@ -32,11 +32,7 @@ parsed output file - xyz123.txt.parsed
 How To Run
 ------------
 Set the parameters TRAIN_DATA_DIR and TEST_DATA_DIR in the run_clincker.sh 
-
-Download Stanford Parser (version 2.0.1) from http://nlp.stanford.edu/software/stanford-parser-2012-03-09.tgz
-Unzip it and put the stanford-parser.jar and stanford-parser-2012-03-09-models.jar files under the "CoRefLinker/lib" directory.
-
-Compile the code and run "run_clincker.sh" file.
+Then run the file.
 
 The output files of the system will be saved inside the directory "chains_out" inside TEST_DATA_DIR directory.
 
