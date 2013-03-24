@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D252B69E0D00DEC80062852C /* svm_classify.c in Sources */ = {isa = PBXBuildFile; fileRef = D252B69D0D00DEC80062852C /* svm_classify.c */; };
+		D2ECD7A70CFF6597008E297A /* svm_common.c in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD79E0CFF6597008E297A /* svm_common.c */; };
+		D2ECD7A80CFF6597008E297A /* svm_hideo.c in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD7A00CFF6597008E297A /* svm_hideo.c */; };
+		D2ECD7AB0CFF6597008E297A /* tree_kernel.c in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD7A50CFF6597008E297A /* tree_kernel.c */; };
+		D2ECD7AC0CFF6597008E297A /* tree_manager.c in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD7A60CFF6597008E297A /* tree_manager.c */; };
+		D2ECD7AD0CFF6597008E297A /* svm_common.c in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD79E0CFF6597008E297A /* svm_common.c */; };
+		D2ECD7AE0CFF6597008E297A /* svm_hideo.c in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD7A00CFF6597008E297A /* svm_hideo.c */; };
+		D2ECD7AF0CFF6597008E297A /* svm_learn_main.c in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD7A10CFF6597008E297A /* svm_learn_main.c */; };
+		D2ECD7B00CFF6597008E297A /* svm_learn.c in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD7A20CFF6597008E297A /* svm_learn.c */; };
+		D2ECD7B10CFF6597008E297A /* tree_kernel.c in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD7A50CFF6597008E297A /* tree_kernel.c */; };
+		D2ECD7B20CFF6597008E297A /* tree_manager.c in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD7A60CFF6597008E297A /* tree_manager.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D252B69D0D00DEC80062852C /* svm_classify.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = svm_classify.c; sourceTree = "<group>"; };
+		D2ECD79D0CFF6597008E297A /* kernel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = kernel.h; sourceTree = "<group>"; };
+		D2ECD79E0CFF6597008E297A /* svm_common.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = svm_common.c; sourceTree = "<group>"; };
+		D2ECD79F0CFF6597008E297A /* svm_common.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = svm_common.h; sourceTree = "<group>"; };
+		D2ECD7A00CFF6597008E297A /* svm_hideo.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = svm_hideo.c; sourceTree = "<group>"; };
+		D2ECD7A10CFF6597008E297A /* svm_learn_main.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = svm_learn_main.c; sourceTree = "<group>"; };
+		D2ECD7A20CFF6597008E297A /* svm_learn.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = svm_learn.c; sourceTree = "<group>"; };
+		D2ECD7A30CFF6597008E297A /* svm_learn.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = svm_learn.h; sourceTree = "<group>"; };
+		D2ECD7A50CFF6597008E297A /* tree_kernel.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = tree_kernel.c; sourceTree = "<group>"; };
+		D2ECD7A60CFF6597008E297A /* tree_manager.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = tree_manager.c; sourceTree = "<group>"; };
+		E58135860E59F7D800006501 /* SVM-Light-1.4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SVM-Light-1.4"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58135880E59F7D800006501 /* svm_learn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = svm_learn; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ECD6310CFF20B0008E297A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* SVM-Light-1.4 */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				D2ECD6610CFF5A41008E297A /* Group */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = "SVM-Light-1.4";
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D252B69D0D00DEC80062852C /* svm_classify.c */,
+				D2ECD79D0CFF6597008E297A /* kernel.h */,
+				D2ECD79E0CFF6597008E297A /* svm_common.c */,
+				D2ECD79F0CFF6597008E297A /* svm_common.h */,
+				D2ECD7A00CFF6597008E297A /* svm_hideo.c */,
+				D2ECD7A10CFF6597008E297A /* svm_learn_main.c */,
+				D2ECD7A20CFF6597008E297A /* svm_learn.c */,
+				D2ECD7A30CFF6597008E297A /* svm_learn.h */,
+				D2ECD7A50CFF6597008E297A /* tree_kernel.c */,
+				D2ECD7A60CFF6597008E297A /* tree_manager.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E58135860E59F7D800006501 /* SVM-Light-1.4 */,
+				E58135880E59F7D800006501 /* svm_learn */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		D2ECD6610CFF5A41008E297A /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+			);
+			name = Group;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* svm_classify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "svm_classify" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svm_classify;
+			productInstallPath = "$(HOME)/bin";
+			productName = "SVM-Light-1.4";
+			productReference = E58135860E59F7D800006501 /* SVM-Light-1.4 */;
+			productType = "com.apple.product-type.tool";
+		};
+		D2ECD6320CFF20B0008E297A /* svm_learn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2ECD6350CFF20CF008E297A /* Build configuration list for PBXNativeTarget "svm_learn" */;
+			buildPhases = (
+				D2ECD6300CFF20B0008E297A /* Sources */,
+				D2ECD6310CFF20B0008E297A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svm_learn;
+			productName = svm_learn;
+			productReference = E58135880E59F7D800006501 /* svm_learn */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "SVM-Light-1.5" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* SVM-Light-1.4 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* svm_classify */,
+				D2ECD6320CFF20B0008E297A /* svm_learn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ECD7A70CFF6597008E297A /* svm_common.c in Sources */,
+				D2ECD7A80CFF6597008E297A /* svm_hideo.c in Sources */,
+				D2ECD7AB0CFF6597008E297A /* tree_kernel.c in Sources */,
+				D2ECD7AC0CFF6597008E297A /* tree_manager.c in Sources */,
+				D252B69E0D00DEC80062852C /* svm_classify.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ECD6300CFF20B0008E297A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ECD7AD0CFF6597008E297A /* svm_common.c in Sources */,
+				D2ECD7AE0CFF6597008E297A /* svm_hideo.c in Sources */,
+				D2ECD7AF0CFF6597008E297A /* svm_learn_main.c in Sources */,
+				D2ECD7B00CFF6597008E297A /* svm_learn.c in Sources */,
+				D2ECD7B10CFF6597008E297A /* tree_kernel.c in Sources */,
+				D2ECD7B20CFF6597008E297A /* tree_manager.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = "SVM-Light-1.4";
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = "SVM-Light-1.4";
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		D2ECD6360CFF20CF008E297A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = svm_learn;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		D2ECD6370CFF20CF008E297A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_PPC64 = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = svm_learn;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "svm_classify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "SVM-Light-1.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2ECD6350CFF20CF008E297A /* Build configuration list for PBXNativeTarget "svm_learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ECD6360CFF20CF008E297A /* Debug */,
+				D2ECD6370CFF20CF008E297A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

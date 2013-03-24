@@ -1,0 +1,33 @@
+The major difference with the description of the SVM-light-tk-1.2 is that you can specify trees like
+
+         A
+      /   |  \
+     a   b  c
+
+with the following syntax:
+
+(A (a)(b)(c))
+
+Pay attention!! you cannot write such tree as (A a b c).
+
+Actually, you cannot do this with all the my versions too.
+
+With -L option you can change lambda as usual.
+
+With -M you can change mu.
+
+You can use TK with the command
+
+./svm_learn -t 5 -F 3 -C T learning_file model
+
+-F decides the type of tree kernel
+
+	-1	SSTK kernel ACL07 // Moschtti et al. 2007
+	0	ST kernel NISP2001 // Wisnathan and Smola 2002
+	1	SST kernel // COLLINS and DUFFY 2002
+	2	SST kenel + bow kernel on leaves, i.e. SST until the leaves // ZHANG, 2003
+	3	PT kernel // Moschitti, ECML 2006
+	4	PT kernel no leaves // something new
+	6	// STRING_KERNEL, Taylor and Cristianini book 2004, you put a fake root and only one level of children, i.e. the elements of your sequence
+
+If you specify -C V you use only vectors and with -C + you sum tree kernels to vectors (see http://disi.unitn.it/moschitti/Tree-Kernel.htm)

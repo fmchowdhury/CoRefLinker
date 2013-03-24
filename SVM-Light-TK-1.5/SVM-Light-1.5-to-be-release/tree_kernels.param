@@ -1,0 +1,6 @@
+4,4,0.4,0.4,1,1 : uPTK
+4,4,0.4,0.4,1,1 : uPTK
+2,2,.2,.4,1,1 : BOW_SST_KERNEL, ZHANG, 2003
+3,3,.4,.4,1,1 : PTK (3,3) with lambda and Mu parameters then there is the normalization and weight
+1,1,.4,.4,1,1 : STK collins' kernels
+10000,0,0,0,0,0 : END_OF_TREE_KERNELS
