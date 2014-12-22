@@ -2,14 +2,13 @@
  CoRefLinker
 ==============
 
+This software is distributed under Apache License 2.0. Modification, redistribution or any other usage of this software is permitted without any restriction.
+
 CoRefLinker is a tool for coreference resolution for clinical text. It is an implementation of a variant of the influential mention-pair model for coreference resolution. It accepts input in the format of the i2b2 2011 shared task annotation (https://www.i2b2.org/NLP/Coreference/) and produces coreference chains in clinical documents.
 
 Author: Md. Faisal Mahbub Chowdhury
   fmchowdhury@gmail.com
 
-LICENSING TERMS 
-----------------
-This software is granted free of charge for research and education purposes. However you must obtain a license from the author to use it for commercial purposes.
 
 Input Directory Structure
 ---------------------------
